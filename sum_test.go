@@ -10,3 +10,12 @@ func TestSum(t *testing.T) {
 	}
 
 }
+
+func TestSum2(t *testing.T) {
+	result := sum2(2, 3)
+
+	if result != 5 {
+		t.Error("O resultado deve ser 5")
+	}
+
+}
